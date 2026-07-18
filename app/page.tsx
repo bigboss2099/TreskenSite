@@ -64,7 +64,7 @@ export default function Home() {
           <div className="logoStage">
             <img src="/tresken-mark-transparent.png" alt="Tresken silver pyramid mark" />
           </div>
-          <p className="visualNote"><span>01</span> Purpose-built intelligence</p>
+          <p className="visualNote">Purpose-built intelligence</p>
         </div>
         <div className="heroRail">
           <span>Software / AI / Operations</span>

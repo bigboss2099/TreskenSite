@@ -93,8 +93,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .orbit { position: absolute; border: 1px solid rgba(211,220,230,.15); border-radius: 50%; }
 .orbitOne { width: 510px; height: 510px; }
 .orbitTwo { width: 360px; height: 360px; border-style: dashed; animation: spin 35s linear infinite; }
-.visualNote { position: absolute; right: 0; bottom: 14%; display: grid; gap: 6px; color: #8591a1; font-size: 10px; text-transform: uppercase; letter-spacing: .15em; }
-.visualNote span { color: var(--gold); }
+.visualNote { position: absolute; right: 0; bottom: 14%; color: #8591a1; font-size: 10px; text-transform: uppercase; letter-spacing: .15em; }
 .heroRail { position: absolute; left: 4.5vw; right: 4.5vw; bottom: 35px; display: flex; justify-content: space-between; color: #768294; font-size: 9px; letter-spacing: .18em; text-transform: uppercase; }
 @keyframes float { 50% { transform: translateY(-16px); } }
 @keyframes spin { to { transform: rotate(360deg); } }
