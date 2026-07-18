@@ -37,9 +37,30 @@ button, a { -webkit-tap-highlight-color: transparent; }
   color: white;
 }
 .brand { display: inline-flex; align-items: center; gap: 13px; width: max-content; font-size: 22px; font-weight: 700; letter-spacing: -.04em; }
-.brand img { width: 38px; height: 38px; object-fit: contain; mix-blend-mode: screen; }
+.brand img { width: 38px; height: 38px; object-fit: contain; }
 .brand img, .logoStage img, .productMark img, .closingMark img {
-  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(
+    49% 1%,
+    51% 8%,
+    61% 12%,
+    53% 14%,
+    69% 40%,
+    67% 43%,
+    83% 66%,
+    80% 70%,
+    97% 90%,
+    94% 94%,
+    50% 99%,
+    5% 94%,
+    2% 90%,
+    18% 70%,
+    15% 66%,
+    31% 43%,
+    29% 40%,
+    46% 14%,
+    38% 12%,
+    48% 8%
+  );
 }
 .navLinks { display: flex; gap: 34px; font-size: 12px; text-transform: uppercase; letter-spacing: .12em; }
 .navLinks a, .textLink, .navCta { transition: opacity .2s ease; }
@@ -92,7 +113,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .heroVisual { position: relative; z-index: 2; min-height: 580px; display: grid; place-items: center; }
 .logoStage { position: relative; width: min(500px, 42vw); aspect-ratio: 1; display: grid; place-items: center; }
 .logoStage::before { content: ""; position: absolute; inset: 4%; border-radius: 50%; background: radial-gradient(circle, rgba(255,255,255,.13), rgba(255,255,255,.02) 46%, transparent 70%); filter: blur(12px); }
-.logoStage img { position: relative; width: 84%; filter: drop-shadow(0 42px 42px rgba(0,0,0,.45)); mix-blend-mode: screen; animation: float 7s ease-in-out infinite; }
+.logoStage img { position: relative; width: 84%; filter: contrast(1.05) drop-shadow(0 42px 42px rgba(0,0,0,.45)); animation: float 7s ease-in-out infinite; }
 .orbit { position: absolute; border: 1px solid rgba(211,220,230,.15); border-radius: 50%; }
 .orbitOne { width: 510px; height: 510px; }
 .orbitTwo { width: 360px; height: 360px; border-style: dashed; animation: spin 35s linear infinite; }
@@ -129,7 +150,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .systemStatus i { width: 6px; height: 6px; border-radius: 50%; background: #9eca9e; box-shadow: 0 0 10px #9eca9e; }
 .productCenter { min-height: 480px; padding: 70px 8vw; display: grid; grid-template-columns: .5fr 1fr; gap: 6vw; align-items: center; }
 .productMark { width: min(290px, 23vw); aspect-ratio: 1; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.1); transform: rotate(45deg); background: rgba(255,255,255,.025); }
-.productMark img { width: 83%; transform: rotate(-45deg); mix-blend-mode: screen; }
+.productMark img { width: 83%; transform: rotate(-45deg); filter: contrast(1.05); }
 .productCenter p { color: var(--gold); font-size: 10px; text-transform: uppercase; letter-spacing: .18em; }
 .productCenter h3 { margin: 18px 0 0; font-family: Georgia, serif; font-size: clamp(44px, 5vw, 77px); font-weight: 400; line-height: 1.02; letter-spacing: -.055em; }
 .productCenter h3 em { color: #99a5b3; }
@@ -157,7 +178,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .closing { position: relative; overflow: hidden; min-height: 720px; padding: 120px 8vw; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white; background: linear-gradient(150deg, #071525, #020711); }
 .closing::after { content: ""; position: absolute; width: 700px; height: 700px; border: 1px solid rgba(255,255,255,.06); border-radius: 50%; }
 .closingMark { position: absolute; width: 480px; opacity: .075; }
-.closingMark img { width: 100%; mix-blend-mode: screen; }
+.closingMark img { width: 100%; }
 .closing > *:not(.closingMark) { position: relative; z-index: 2; }
 .closing h2 { max-width: 1150px; font-size: clamp(55px, 7vw, 110px); }
 .closing .button { margin-top: 48px; }
