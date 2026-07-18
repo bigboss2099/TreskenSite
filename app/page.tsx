@@ -30,7 +30,7 @@ export default function Home() {
     <main>
       <nav className="nav" aria-label="Primary navigation">
         <a className="brand" href="#top" aria-label="Tresken home">
-          <img src="/tresken-mark.png" alt="" />
+          <img src="/tresken-mark-transparent.png" alt="" />
           <span>Tresken</span>
         </a>
         <div className="navLinks">
@@ -62,7 +62,7 @@ export default function Home() {
           <div className="orbit orbitOne" />
           <div className="orbit orbitTwo" />
           <div className="logoStage">
-            <img src="/tresken-mark.png" alt="Tresken silver pyramid mark" />
+            <img src="/tresken-mark-transparent.png" alt="Tresken silver pyramid mark" />
           </div>
           <p className="visualNote"><span>01</span> Purpose-built intelligence</p>
         </div>
@@ -112,7 +112,7 @@ export default function Home() {
             <span className="systemStatus"><i /> Systems connected</span>
           </div>
           <div className="productCenter">
-            <div className="productMark"><img src="/tresken-mark.png" alt="" /></div>
+            <div className="productMark"><img src="/tresken-mark-transparent.png" alt="" /></div>
             <div>
               <p>ElyndraOS connects the entire operation</p>
               <h3>See the work.<br />Guide the work.<br /><em>Transform the work.</em></h3>
@@ -161,7 +161,7 @@ export default function Home() {
       </section>
 
       <section className="closing">
-        <div className="closingMark"><img src="/tresken-mark.png" alt="" /></div>
+        <div className="closingMark"><img src="/tresken-mark-transparent.png" alt="" /></div>
         <p className="sectionLabel light">Build what moves business forward</p>
         <h2>The real world is complex.<br /><em>Your software shouldn&apos;t be.</em></h2>
         <a className="button bright" href="mailto:hello@tresken.com">
@@ -171,7 +171,7 @@ export default function Home() {
 
       <footer>
         <a className="brand footerBrand" href="#top">
-          <img src="/tresken-mark.png" alt="" />
+          <img src="/tresken-mark-transparent.png" alt="" />
           <span>Tresken</span>
         </a>
         <p>Tresken Inc. designs and builds AI-powered software solutions for real-world use.</p>
